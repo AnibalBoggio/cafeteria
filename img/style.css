@@ -1,0 +1,89 @@
+#navbar{
+    width: 100%; 
+    height: 85px;
+    background-color: rgb(66, 42, 26);
+}
+
+#cup{
+    height: 80px;
+}
+
+#Home {
+    font-size: 150%;
+    margin-left: 10px;
+    color: white;
+}
+
+#Sobre-nosotros{
+    justify-content: center;  
+    font-size: 150%; 
+    margin-left: 10px; 
+    color: white;
+}
+
+#menu{
+    font-size: 150%;
+    margin-left: 10px;
+    color: white;
+}
+
+.col-6 {
+    display: flex;
+    align-items: center;
+}
+
+
+#banner {
+    margin-top: 25px;
+    width: 74%;
+    background-image: url(/imagenes/imagenbanner.jpg);
+    background-size: 100%;
+    padding: 13%;
+}
+
+.cartas-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 180px; 
+}
+
+.Producto {
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: white;
+    flex: 0 0 auto; 
+}
+
+
+
+.carta img {
+    object-fit: contain;
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.carta-contenido {
+    padding: 15px;
+}
+
+.carta-titulo {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.carta-descripcion {
+    color: #555;
+}
+
+#footer {
+    background-color: rgb(66, 42, 26);
+    margin-top: 100%;
+    width: 100% ;
+    height: 100px;
+}
